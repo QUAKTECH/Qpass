@@ -26,9 +26,11 @@ git clone the repo <br>
 
 ## 🛣 Road Map
 - Add more secure encryption
+  - AES encryption?
 - Add more security fetures
+  - Master password auth
 - Add more other fetures
-- Add a good password generator (Very customizable)
+  - a good password generator (Very customizable)
 
 ## 📝 License
 This project is licensed under the QuakTech License v2 - see the [LICENSE](LICENSE) file for details.
