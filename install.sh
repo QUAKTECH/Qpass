@@ -1,11 +1,22 @@
-if [ "$(id -u)" != "0" ]; then
-   echo "This script must be run as root" 1>&2
-   exit 1
+#!/bin/bash
+
+echo "Building project..."
+cargo build --release
+if [ $? -ne 0 ]; then
+    echo "Build failed. Exiting."
+    exit 1
 fi
 
-cargo build --release
+if [ ! -f target/release/qpass ]; then
+    echo "Error: target/release/qpass not found. Exiting."
+    exit 1
+fi
 
-cp target/release/qpass /usr/bin/qpass
-chmod +x /usr/bin/qpass
+echo "Copying qpass to /usr/bin..."
+sudo cp target/release/qpass /usr/bin/
+if [ $? -ne 0 ]; then
+    echo "Failed to copy qpass to /usr/bin/. Exiting."
+    exit 1
+fi
 
 echo "qpass has been installed.🔥"   
