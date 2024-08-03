@@ -1,0 +1,11 @@
+[package]
+name = "qpass"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "qpass"
+path = "src/main.rs"
+
+[dependencies]
+base64 = "=0.22.1"

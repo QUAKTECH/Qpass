@@ -1,0 +1,62 @@
+QUAKTECH
+Sat, June 15 2024
+License Written by AeternusDio
+Version=2
+
+0. TERMS & CONDITIONS FOR LICENSE DOCUMENT.
+
+Everyone is permitted to copy, distribute, and modify this license document, under the condition that the original author is credited. The phrase "License written by AeternusDio" must be prominently displayed at the top of all unmodified copies. Failure to include this notice at the top of the license document voids any rights granted under this license. Any modified copies of this license document created by persons or entities other than QUAKTECH do not constitute new versions of this license but are considered entirely new licenses. These new licenses must not claim to be the original QUAKTECH license or any version thereof.
+
+1. TERMINATION.
+
+This license and the rights granted hereunder will terminate automatically upon any breach by the licensee of the terms of this license. Upon termination, you must destroy all copies of the Software in your possession.
+
+2. INTRODUCTION.
+
+The QUAKTECH License Version 2 is a permissive open-source license for software. This license grants users wide-ranging freedoms to use, modify, and distribute the software, while ensuring that the original authorship is acknowledged. It is designed to foster collaboration and innovation by allowing both commercial and non-commercial use of the software without imposing significant restrictions on how it can be utilized or integrated into other projects. By adhering to the terms outlined in this license, users can leverage the full potential of the software while contributing to a thriving community of developers and users.
+
+3. DEFINITIONS.
+
+- "This Software" or “The Software”: Refers to the computer program(s) and associated documentation files licensed under the QUAKTECH License Version 2.
+ - Copyright: The exclusive legal right granted to the author or creator of a work to reproduce, prepare derivative works, distribute, perform, display, and grant licenses for their work. 
+- Open Source: Software that is licensed with terms that allow users to freely use, modify, and distribute the software's source code. 
+- Free (as in Freedom): Refers to the ability to use, study, modify, and distribute software without undue restrictions. 
+- Modify: To make changes, enhancements, or adaptations to the original software. 
+- "You" (the user): Refers to any individual or entity that exercises rights granted under this license. - Source Code: The human-readable form of the software's instructions, as written by a programmer, that enables the software to function.
+- “[FULLNAME]”: Refers to any individual or entity that uses the QUAKTECH License Version 2 for their software.
+
+4. COMPLETE NON-ENFORCEMENT SECTION.
+
+The Software, or any modified version of it, shall not be used to endorse or promote any product derived from or utilizing the Software without specific prior written permission from [FULLNAME].
+
+5. LICENSE SCOPE.
+
+This license applies to the following components: 
+- The Software: Refers to the computer program(s) and any associated files distributed under the QUAKTECH License Version 2. 
+- Documentation: Refers to any accompanying documentation or readme files provided with the Software. 
+- Any other materials distributed with the Software that are explicitly licensed under the QUAKTECH License Version 2. This license governs the use, distribution, and modification of the Software and all associated materials as defined above.
+
+6. PATENT GRANT.
+
+This license does not grant any rights in the patents, trademarks, service marks, or any other intellectual property rights of [FULLNAME]. However, if any entity asserts patent claims against [FULLNAME] or any contributor to the Software, then [FULLNAME] grants to you a non-exclusive, royalty-free, worldwide license under [FULLNAME]'s applicable patent rights to practice those claims in the Software, but solely to the extent necessary to use, modify, or distribute the Software under this license.
+
+Copyright (C) 2024 QuakTech.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the following rights:
+
+1. Use: The right to use the Software for any purpose, including commercial, private, and public purposes.
+2. Copy: The right to make copies of the Software, in whole or in part, for any purpose.
+3. Modify: The right to modify the Software, including the right to create derivative works based on the Software.
+4. Merge: The right to combine the Software with other software to form a larger work.
+5. Publish: The right to publish the Software, including any modifications or derivative works.
+6. Distribute: The right to distribute copies of the Software, including any modifications or derivative works, to third parties.
+7. Sublicense: The right to grant sublicenses to third parties to use the Software under the terms of this license.
+8. Sell: The right to sell copies of the Software, including any modifications or derivative works.
+
+These rights are subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+2. The Software may be used for commercial, public, or private purposes.
+3. The Software shall not be used to endorse or promote products derived from or using this Software without specific prior written permission from [FULLNAME].
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
