@@ -8,24 +8,12 @@ use std::path::PathBuf;
 use colored::*; 
 
 const VERSION: &str = "1.0.0";
-const KEY_FILE: &str = ".QPASS/key.key";
+
+// CHNAGE THIS TO YOUR OWN KEY
+const HARDCODED_KEY: [u8; 32] = [0x1f, 0xa6, 0x8b, 0x5b, 0x4a, 0xe2, 0x0e, 0x73, 0x3e, 0x77, 0xc1, 0xa3, 0xf4, 0xa9, 0x7d, 0x4b, 0xf7, 0x2a, 0xe0, 0x4e, 0xc7, 0xe2, 0x7a, 0x9d, 0x78, 0x0c, 0xc3, 0x62, 0xe1, 0x1d, 0x26, 0x12];
 
 fn usage() {
     println!("{}", "Usage: password_manager [-a|--add name] [-r|--remove name] [-l|--list] [-f|--fetch name] [-v|--version]".red());
-}
-
-fn get_key() -> secretbox::Key {
-    let user_home = env::var("HOME").expect("HOME environment variable not set");
-    let key_path = PathBuf::from(user_home).join(KEY_FILE);
-
-    if key_path.exists() {
-        let key_bytes = fs::read(key_path).expect("Failed to read key file");
-        secretbox::Key::from_slice(&key_bytes).expect("Invalid key length")
-    } else {
-        let key = secretbox::gen_key();
-        fs::write(key_path, key.0).expect("Failed to write key to file");
-        key
-    }
 }
 
 fn main() {
@@ -48,7 +36,8 @@ fn main() {
         fs::create_dir_all(&qpass_path).expect("Failed to create directory");
     }
 
-    let key = get_key();
+    // Use the hardcoded key for encryption/decryption
+    let key = secretbox::Key::from_slice(&HARDCODED_KEY).expect("Invalid key length");
 
     match option.as_str() {
         "-a" | "--add" => {

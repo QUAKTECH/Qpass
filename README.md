@@ -31,6 +31,10 @@ git clone the repo <br>
 - Add more other fetures
   - a good password generator (Very customizable)
 
+
+## IMMPLORTANT
+Before compiling go into the main.rs file and change the key to your own.
+
 ## 📝 License
 This project is licensed under the QuakTech License v2 - see the [LICENSE](LICENSE) file for details.
 If you want to use this License you can check it out here 👉 [License in repo](https://github.com/QUAKTECH/QuakTech-Licenses/blob/main/QUAKTECH%20License%20v2) 
