@@ -20,13 +20,12 @@ git clone the repo <br>
   Prints the version of the program
 
 ## 🗒 Fetures
-- Base64 encryption
+- Encryption with Sodiumoxide
 - Easy
 - Fast 🚀
 
 ## 🛣 Road Map
-- Add more secure encryption
-  - AES encryption?
+- ~~Add more secure encryption~~
 - Add more security fetures
   - Master password auth
 - Add more other fetures

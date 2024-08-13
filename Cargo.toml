@@ -8,4 +8,5 @@ name = "qpass"
 path = "src/main.rs"
 
 [dependencies]
-base64 = "=0.22.1"
+sodiumoxide = "0.2"
+colored = "2.0"
